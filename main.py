@@ -94,6 +94,10 @@ async def get_current_user(authorization: str = Header(...)):
     return username
 
 
+@app.get("/")
+async def home():
+    return("Welcome to FastAPI Project")
+
 @app.post("/login", response_model=Token)
 async def login_for_access_token(form_data: User):
     user = fake_users_db.get(form_data.username)
