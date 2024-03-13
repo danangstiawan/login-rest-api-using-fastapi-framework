@@ -1,22 +1,19 @@
 TECHNICAL TEST ISMAYA LEGIT GROUP
-
+By. Danang Stiiawan
 
 Dummy User Login
 "username": "ismayalegit",
 "password": "password2024"
 
-
 Create New Password
 Run : generate_new_pass.py
-
-
 
 Login (get token)
 Endpoint API : /login
 Body (json):
 {
-  "username": "ismayalegit",
-  "password": "password2024"
+"username": "ismayalegit",
+"password": "password2024"
 }
 
 Get Weather

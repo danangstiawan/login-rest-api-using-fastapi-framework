@@ -94,7 +94,7 @@ async def get_current_user(authorization: str = Header(...)):
     return username
 
 
-@app.post("/token", response_model=Token)
+@app.post("/login", response_model=Token)
 async def login_for_access_token(form_data: User):
     user = fake_users_db.get(form_data.username)
     if not user or not verify_password(form_data.password, user["hashed_password"]):
@@ -132,7 +132,6 @@ async def get_weather(city: str, current_user: str = Depends(get_current_user)):
         cod=data.get('cod')
     )
 
-  
     print(f"User {current_user} accessed weather information for {city}")
 
     return weather
