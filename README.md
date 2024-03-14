@@ -1,6 +1,6 @@
 ---
-title: TECHNICAL TEST ISMAYA LEGIT GROUP
-description: By. Danang Stiawan
+Project: TECHNICAL TEST ISMAYA LEGIT GROUP
+Developer: Danang Stiawan
 ---
 
 # Dummy User Login
