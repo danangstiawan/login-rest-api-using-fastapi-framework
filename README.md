@@ -1,9 +1,14 @@
-TECHNICAL TEST ISMAYA LEGIT GROUP
-By. Danang Stiiawan
+---
+title: TECHNICAL TEST ISMAYA LEGIT GROUP
+description: By. Danang Stiawan
+---
 
-Dummy User Login
+# Dummy User Login
+
 "username": "ismayalegit",
 "password": "password2024"
+
+## 💁‍♀️ How to use
 
 Create New Password
 Run : generate_new_pass.py
