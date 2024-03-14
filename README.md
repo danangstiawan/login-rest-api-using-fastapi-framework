@@ -8,7 +8,10 @@ Developer: Danang Stiawan
 "username": "ismayalegit",
 "password": "password2024"
 
-## 💁‍♀️ How to use
+# 💁‍♀️ How to use
+
+Run Local:
+uvicorn main:app --reload
 
 Create New Password
 Run : generate_new_pass.py
