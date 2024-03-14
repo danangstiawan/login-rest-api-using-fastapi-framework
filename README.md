@@ -16,6 +16,8 @@ uvicorn main:app --reload
 Create New Password
 Run : generate_new_pass.py
 
+Try on Postman or another tools
+
 Login (get token)
 Endpoint API : /login
 Body (json):
